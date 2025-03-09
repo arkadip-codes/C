@@ -4,8 +4,8 @@ int main(){
     printf("Enter the number of terms: ");
     scanf("%d", &n);
     printf("Fibonacci Series: ");
-    for (i = 1; i <= n; i++){       //Loop for printing the Fibonacci series
-        printf("%d, ", a);
+    for (i = 1; i <= n; i++){
+        printf("%d\n", a);
         c = a + b;
         a = b;
         b = c;
