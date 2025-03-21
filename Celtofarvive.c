@@ -2,7 +2,7 @@
 int main(){
     int choice;
     float c, f;
-    printf("Enter choice:\n1. Celsius to Fahrenheit\n2. Fahrenheit to Celsius\n");
+    printf("Enter choice:\n1.Celsius to Fahrenheit\n2.Fahrenheit to Celsius\n");
     scanf("%d", &choice);
     switch(choice){
         case 1:
