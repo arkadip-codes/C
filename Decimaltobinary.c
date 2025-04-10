@@ -22,9 +22,10 @@ int main()
         binary = temp%10;
         printf("%d", binary);
         temp = temp/10;
-    }
+        }
     }
     return 0;
     printf("\n");
 }
+
 
