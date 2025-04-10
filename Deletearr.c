@@ -5,7 +5,7 @@ int main()
     printf("Enter the number of terms of the array: ");
     scanf("%d", &n);
     int arr[1000];
-    printf("Enter the elements of the array: \n");
+    printf("Enter the elements of the array:\n");
     for(i = 0; i < n; i++)
     {
         scanf("%d", &arr[i]);
@@ -21,12 +21,18 @@ int main()
                 arr[j] = arr[j+1];
             }
             n--;
+            printf("Array after deletion is: \n");
+            for(i = 0; i < n; i++)
+            {
+            printf("%d\n", arr[i]);
+            }
+            break;
         }
-    }
-    printf("Array after deletion is: \n");
-    for(i = 0; i < n; i++)
-    {
-        printf("%d\n", arr[i]);
+        else
+        {
+            printf("Number not in this array");
+            break;
+        }
     }
     return 0;
 }
