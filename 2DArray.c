@@ -2,6 +2,7 @@
 #include<stdlib.h>
 int main()
 {
+    //2D Array using Dynamic Memory Allocation in C
     int rows, cols, i, j;
     printf("Enter number of rows: ");
     scanf("%d", &rows);
