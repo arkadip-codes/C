@@ -15,7 +15,7 @@ int main()
 {
     stk *s = (stk *)malloc(sizeof(stk));
     s->top = -1;
-    int choice, value;
+    int choice;
     while(1)
     {
         printf("1. Push\n2. Pop\n3. Peek\n4. Exit\n");
