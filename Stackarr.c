@@ -66,7 +66,7 @@ int pop(stk *s)
     }
     else
     {
-        value = s->data[(s->top)--];
+        value = s->data[s->top];
         s->top--;
         printf("Popped value: %d\n", value);
     }
